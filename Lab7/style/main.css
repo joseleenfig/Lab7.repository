@@ -1,0 +1,39 @@
+/*imports normalize*/
+@import "normalize.css";
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  body{
+background-color: rgb(3, 46, 21);
+
+  }
+ 
+
+  @media screen and (max-width: 500px) {
+    .grid {
+      display: grid;
+      grid-template-columns: auto;
+      background-color: rgba(33, 54, 33, 0.5);
+      row-gap: 20px;
+    }
+
+
+    }
+  
+  @media screen and (min-width: 500px) {
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: rgba(33, 54, 33, 0.5);
+        row-gap: 20px;
+    }
+  }
+  
+  
+  
+
+ 
